@@ -39,7 +39,7 @@
 
     <script>
         document.getElementById('startButton').addEventListener('click', function() {
-            var duration = 60 * 5; // Duration in seconds (example: 5 minutes)
+            var duration = 60 * 50; // Duration in seconds
             var countdownElement = document.getElementById('timer');
             var interval = setInterval(function() {
                 var minutes = parseInt(duration / 60, 10);
